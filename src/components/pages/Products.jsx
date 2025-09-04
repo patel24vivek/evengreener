@@ -1,17 +1,17 @@
 import React from 'react'
-import Post from '../Data/Post.jsx'
 import '../pages/Products.scss'
 import { FaHandshake } from 'react-icons/fa'
 import { FcFactory } from 'react-icons/fc'
 import { GiFactory } from 'react-icons/gi'
 
 import NestedDropdown from '../Data/Dropdown.jsx'
+import Product from '../Data/Productpost.jsx'
 
 const Products = () => {
   return (
     <> 
 
-    <NestedDropdown/>
+    {/* <NestedDropdown/>
 
     <div className='bg'>
   <div className='postcontainer'> 
@@ -46,13 +46,13 @@ const Products = () => {
       })
     }
   </div>
-</div>
+</div> */}
 
       
-      {/* <div className='bg'>
+     <div className='bg'>
         <div className='postcontainer' >
       {
-          Post.map((item)=>{
+          Product.map((item)=>{
             return(
               <div className='post' key={item.title}>
                 <img src={item.image} alt="" />
@@ -63,7 +63,7 @@ const Products = () => {
             )
           })
         }
-    </div></div> */}
+    </div></div> 
 
     <div className='bbar'>
       <div className="line-bar">

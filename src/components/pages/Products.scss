@@ -8,6 +8,14 @@
     }
     .postcontainer{
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+         .post {
+            flex: 1 1 22%;
+            max-width: 22%;
+            min-width: 220px;
+        }
         margin-top: 30px;
         gap: 50px;
     }

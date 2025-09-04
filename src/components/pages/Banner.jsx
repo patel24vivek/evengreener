@@ -1,7 +1,7 @@
 import React from 'react'
 import "../pages/banner.scss"
 import Products from './Products'
-import Slider from './slider'
+import Slider from './Slider'
 import Footer from './Footer'
 import Ad from './Ad'
 
