@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+}
+.mainheader{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    .top{
+        display: flex;
+        justify-content: space-around;
+        background-color: #296647;
+        height: 50px;
+        align-items: center;
+        a{
+            color: white;
+        }
+    }
+
+    .middle{ height: 96px;
+        background-color: white;
+    .icons{
+        display: flex;
+        gap: 15px;
+        font-size: 25px;
+    }
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    span{
+        margin-top: -5px;
+    }
+    img{
+        width: 200px;
+    }
+ }
+ .bottomone{
+   height:30px;
+   padding-top: 10px;
+   background-color: white;
+   ul{
+    display: flex;
+    justify-content: center;
+    
+    gap: 30px;
+    font-size: 15px;
+    list-style: none;
+   }
+ }
+    .bottomtwo{
+        display: flex;
+        justify-content: center;
+     background-color: #6bb335;
+     height: 40px;
+     align-items: center;
+     color: white;
+    }
+}
+//  body{
+//     background-image: url('https://evengreener.com/cdn/shop/files/Blackwall_Composter_220l_Black_276x300.png?v=1657919312%22');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-attachment: fixed;
+//  }
+// .postcontainer{
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: center;
+
+//         .post {
+//             flex: 0 1 calc(25% - 50px);
+//             box-sizing: border-box;
+//         }
+//         margin-top: 30px;
+//         gap: 50px;
+//     }
