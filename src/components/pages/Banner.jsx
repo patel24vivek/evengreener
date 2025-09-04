@@ -11,7 +11,8 @@ const Banner = () => {
     <div>
     <div className='banner'>
       <div className='tit'>
-        <span>spotlight on saving water</span> 
+        {/* <span>spotlight on saving water</span>  */}
+        <span>viek patel</span>
         <span style={{
          fontSize : '20px',
          paddingTop : '20px'
